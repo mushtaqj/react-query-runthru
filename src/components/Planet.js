@@ -1,7 +1,6 @@
 import React from "react";
 
 const Planet = ({ planet }) => {
-  console.log(planet);
   return (
     <div className="card">
       <h3>{planet.name}</h3>
